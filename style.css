@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+header {
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+section {
+  margin: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+}
