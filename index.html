@@ -12,10 +12,31 @@
       <h2>Pomyślałem sobie liczbę od 1 do 100. Czy zgadniesz która to?</h2>
     </header>
     <section>
-      <input type="number" id="number" />
-      <input type="button" id="button" value="Sprawdź" />
+      <div class="wrapper">
+        <form>
+          <input
+            type="number"
+            id="number"
+            max="100"
+            min="1"
+            step="1"
+            maxlength="3"
+            minlength="1"
+            required
+          />
+          <input type="button" id="button" value="Sprawdź" />
+        </form>
+      </div>
     </section>
-    <div id="result"></div>
+    <section>
+      <div class="wrapper">
+        <div id="blad"></div>
+      </div>
+      <div class="text">
+        <div id="result"></div>
+        <div id="proby"></div>
+      </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
